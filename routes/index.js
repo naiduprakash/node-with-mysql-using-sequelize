@@ -4,7 +4,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.json({ status: 'connected' });
+  res.json({ status: 'Api endpoints' });
 });
 
 module.exports = router;
