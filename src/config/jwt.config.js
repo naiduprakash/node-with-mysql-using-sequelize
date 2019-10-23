@@ -7,7 +7,7 @@ module.exports = {
    * --------------------------------------------------------------------------
    */
 
-  secret: env('APP_NAME', '5O6TmgUaEV6hV40mC8ilqvdCjtGc1wWd'),
+  secret: env('JWT_SECRET', '5O6TmgUaEV6hV40mC8ilqvdCjtGc1wWd'),
 
   /**
    * --------------------------------------------------------------------------
